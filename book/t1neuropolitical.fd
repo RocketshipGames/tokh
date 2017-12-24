@@ -1,0 +1,4 @@
+\ProvidesFile{t1neuropolitical.fd}
+\DeclareFontFamily{T1}{neuropolitical}{}
+\DeclareFontShape{T1}{neuropolitical}{m}{n}{ <-> virtneuropolitical}{}
+\pdfmapline{+neuropolitical\space <neuropolitical.ttf\space <T1-WGL4.enc}
