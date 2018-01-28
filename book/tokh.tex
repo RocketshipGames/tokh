@@ -1,19 +1,92 @@
 \documentclass{tokh}
 
+\usepackage[colorlinks=true]{hyperref}
+
+\newcommand{\cfbox}[2]{%
+    \colorlet{currentcolor}{.}%
+    {\color{#1}%
+    \fbox{\color{currentcolor}#2}}%
+}
+
+\newlength{\currentparskip}
+\newlength{\currentparindent}
+\newenvironment{stdminipage}[1]
+{\setlength{\currentparskip}{\parskip}%
+  \setlength{\currentparindent}{\parindent}%
+   \begin{minipage}[t]{#1}%
+   \setlength{\parskip}{\currentparskip}%
+   \setlength{\parindent}{\currentparindent}%
+  }
+  {\end{minipage}}
+
+\usepackage{xspace}
+\newcommand{\missionrule}[1]{\noindent\textbf{#1}\xspace}
+
 \begin{document}
 \squelchbackground
 \includepdf[pages={1},fitpaper,offset=0cm 0cm]{art/cover/tokh-cover.pdf}
 \pagebreak
 \restorebackground
 
-\chapter{Introduction}
+\chapter{Common Rules}
 
-\section{Help}
+\missionrule{Initiative Roll.}  A standard Initiative Roll determines
+Initiative and Deployment.  Players whose alliance controls the Breach
+Point or Quadrant associated with the mission receive a~+3 MOD for
+this roll.
 
-Lorem ipsum dolum facto.
+\missionrule{Connect Objective.} The Connect Objective short skill is
+available in some missions:
 
-\clearpage
+% \vspace{-7pt}
+\noindent\hfill
+{\setlength\fboxrule{2pt}
+\cfbox{LimeGreen}{\begin{minipage}{6.5in}
+  \colorbox{LimeGreen}{\parbox{\linewidth-2\fboxsep}{\textcolor{White}{\textbf{\large Connect Objective} \hfill Short Skill}}}\\
+  \colorbox{SkyBlue}{\parbox{\linewidth-2\fboxsep}{\textcolor{White}{Attack}}}
 
-Lorem ipsum dolum facto.
+  \medskip
+  \textsc{Requirements}
+  \begin{squishitemize}
+  \item The user must be a model (not a marker) in base contact with a
+    designated objective.
+  \end{squishitemize}
+
+  \medskip
+  \colorbox{Gray!24}{\begin{minipage}{\linewidth-2\fboxsep}
+
+  \medskip      
+      \textsc{Effects}
+      \begin{squishitemize}
+      \item The user makes a Normal WIP roll with a~-3 MOD to attempt
+        connecting the objective.  \emph{Specialist Troops
+          automatically pass this roll.}
+
+      \item If successful, the acting player connects to the objective
+        (mark it appropriately) and the other player is no longer
+        connected if they previously were (remove any marker).
+      \end{squishitemize}
+    \end{minipage}}
+\end{minipage}}}
+\hfill\hbox to 0pt{}
+
+\medskip
+\missionrule{Network Terminals.}  The Connect Objective short skill
+may be applied to Network Terminals in all missions.  At the end of
+each game round, if a player has a Specialist Troop model (not a
+marker) in base contact with a Network Terminal they have connected,
+and no enemy troops are in base contact, the player receives a Network
+Directory token.  If that troop is their Special Agent, they receive
+two tokens.
+
+\input{mission-breachpoint}
+\input{mission-cyber}
+
+\chapter{Mission: Bio/Xeno}
+\chapter{Mission: MechE}
+
+\input{mission-plant}
+
+\input{mission-datacenter}
 
 \end{document}
