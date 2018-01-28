@@ -23,17 +23,24 @@
 \newcommand{\missionrule}[1]{\noindent\textbf{#1}\xspace}
 
 \begin{document}
-\squelchbackground
-\includepdf[pages={1},fitpaper,offset=0cm 0cm]{art/cover/tokh-cover.pdf}
-\pagebreak
-\restorebackground
+%\squelchbackground
+%\includepdf[pages={1},fitpaper,offset=0cm 0cm]{art/cover/tokh-cover.pdf}
+%\pagebreak
+%\restorebackground
 
 \chapter{Common Rules}
 
 \missionrule{Initiative Roll.}  A standard Initiative Roll determines
-Initiative and Deployment.  Players whose alliance controls the Breach
-Point or Quadrant associated with the mission receive a~+3 MOD for
-this roll.
+Initiative and Deployment, except the Initiative Roll may be made
+against either your Lieutenant or your Special Agent.  In addition, in
+the Quadrant missions:
+
+\begin{itemize}\shortlist
+\item The player that chose the mission receives a +3 MOD.
+
+\item Players whose alliance controls the associated Breach Point or
+  Quadrant receive a~+3 MOD.
+\end{itemize}
 
 \missionrule{Connect Objective.} The Connect Objective short skill is
 available in some missions:
@@ -79,10 +86,32 @@ and no enemy troops are in base contact, the player receives a Network
 Directory token.  If that troop is their Special Agent, they receive
 two tokens.
 
+\missionrule{Experience.}  After each mission, your Special Agent is
+permanently improved by choosing from:
+
+\begin{itemize}\shortlist
+\item +1 to one of CC, BS, PH, or WIP
+\item +1 to MOV (first value)
+\item +1 to ARM (once per campaign)
+\item +1 to BTS (once per campaign)
+\end{itemize}
+
+If you won and the Lieutenant listed on your army list survived, their
+CC, BS, PH, or WIP may be permanently improved by~+1.  You may not
+improve a single attribute for any given Lieutenant more than once per
+campaign (e.g., after two victorious missions they could not have
+improved BS twice).
+  
+If you lost the mission, you receive a Karma token.  If you lost by~7
+or more objective points then you receive two Karma tokens.  Karma
+tokens may be discarded at any point in a later mission to reroll a
+single die of yours.  You may not reroll a die that has already been
+rerolled.
+
 \input{mission-breachpoint}
 \input{mission-cyber}
+\input{mission-bio}
 
-\chapter{Mission: Bio/Xeno}
 \chapter{Mission: MechE}
 
 \input{mission-plant}
