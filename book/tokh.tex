@@ -35,15 +35,15 @@ Initiative and Deployment, except the Initiative Roll may be made
 against either your Lieutenant or your Special Agent.  In addition, in
 the Quadrant missions:
 
-\begin{itemize}\shortlist
+\begin{squishitemize}
 \item The player that chose the mission receives a +3 MOD.
 
 \item Players whose alliance controls the associated Breach Point or
   Quadrant receive a~+3 MOD.
-\end{itemize}
+\end{squishitemize}
 
-\missionrule{Connect Objective.} The Connect Objective short skill is
-available in some missions:
+\missionrule{Connect Objective.} The Connect Objective short skill may
+be applied to objectives in some missions:
 
 % \vspace{-7pt}
 \noindent\hfill
@@ -77,30 +77,30 @@ available in some missions:
 \end{minipage}}}
 \hfill\hbox to 0pt{}
 
-\medskip
+\medskip%
 \missionrule{Network Terminals.}  The Connect Objective short skill
-may be applied to Network Terminals in all missions.  At the end of
-each game round, if a player has a Specialist Troop model (not a
-marker) in base contact with a Network Terminal they have connected,
-and no enemy troops are in base contact, the player receives a Network
-Directory token.  If that troop is their Special Agent, they receive
-two tokens.
+may be applied to Network Terminals.  At the end of each game round,
+if your Special Agent is in base contact with a Network Terminal you
+have connected, not a marker, and no enemy troops are in contact, you
+receive a Network Directory token.
 
 \missionrule{Experience.}  After each mission, your Special Agent is
 permanently improved by choosing from:
 
-\begin{itemize}\shortlist
-\item +1 to one of CC, BS, PH, or WIP
+\begin{squishitemize}
+\item +1 to one of BS, PH, or WIP
+\item +3 to CC
 \item +1 to MOV (first value)
 \item +1 to ARM (once per campaign)
 \item +1 to BTS (once per campaign)
-\end{itemize}
+\end{squishitemize}
 
-If you won and the Lieutenant listed on your army list survived, their
-CC, BS, PH, or WIP may be permanently improved by~+1.  You may not
-improve a single attribute for any given Lieutenant more than once per
-campaign (e.g., after two victorious missions they could not have
-improved BS twice).
+If you won and the Lieutenant on your army list survived, their BS,
+PH, or WIP may be permanently improved by~+1, or their CC by~+3.  Note
+that this is optional as attributes are public information, so an
+improvement reveals your Lieutenant's identity.  You may not improve a
+single attribute for any given Lieutenant more than once per campaign
+(e.g., after two victories they could not improve BS twice).
   
 If you lost the mission, you receive a Karma token.  If you lost by~7
 or more objective points then you receive two Karma tokens.  Karma
@@ -108,12 +108,20 @@ tokens may be discarded at any point in a later mission to reroll a
 single die of yours.  You may not reroll a die that has already been
 rerolled.
 
+\missionrule{Endgame.}  All matches end after~3 game turns.
+\emph{Retreat!} rules apply as given in the main \emph{Infinity}
+rulebook except the game does not end once one player has no models in
+play: The remaining player may play out the game turns attempting to
+score objectives.
+
+\vfill
+\vbox to 0pt{}
+
 \input{mission-breachpoint}
+
 \input{mission-cyber}
 \input{mission-bio}
-
-\chapter{Mission: MechE}
-
+\input{mission-mech}
 \input{mission-plant}
 
 \input{mission-datacenter}
