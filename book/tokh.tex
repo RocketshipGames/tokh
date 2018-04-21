@@ -23,99 +23,15 @@
 \newcommand{\missionrule}[1]{\noindent\textbf{#1}\xspace}
 
 \begin{document}
-%\squelchbackground
-%\includepdf[pages={1},fitpaper,offset=0cm 0cm]{art/cover/tokh-cover.pdf}
-%\pagebreak
-%\restorebackground
+\squelchbackground
+\includepdf[pages={1},fitpaper,offset=0cm 0cm]{art/cover/tokh-cover.pdf}
+\pagebreak
+\restorebackground
 
-\chapter{Common Rules}
-
-\missionrule{Initiative Roll.}  A standard Initiative Roll determines
-Initiative and Deployment, except the Initiative Roll may be made
-against either your Lieutenant or your Special Agent.  In addition, in
-the Quadrant missions:
-
-\begin{squishitemize}
-\item The player that chose the mission receives a +3 MOD.
-
-\item Players whose alliance controls the associated Breach Point or
-  Quadrant receive a~+3 MOD.
-\end{squishitemize}
-
-\missionrule{Connect Objective.} The Connect Objective short skill may
-be applied to objectives in some missions:
-
-% \vspace{-7pt}
-\noindent\hfill
-{\setlength\fboxrule{2pt}
-\cfbox{LimeGreen}{\begin{minipage}{6.5in}
-  \colorbox{LimeGreen}{\parbox{\linewidth-2\fboxsep}{\textcolor{White}{\textbf{\large Connect Objective} \hfill Short Skill}}}\\
-  \colorbox{SkyBlue}{\parbox{\linewidth-2\fboxsep}{\textcolor{White}{Attack}}}
-
-  \medskip
-  \textsc{Requirements}
-  \begin{squishitemize}
-  \item The user must be a model (not a marker) in base contact with a
-    designated objective.
-  \end{squishitemize}
-
-  \medskip
-  \colorbox{Gray!24}{\begin{minipage}{\linewidth-2\fboxsep}
-
-  \medskip      
-      \textsc{Effects}
-      \begin{squishitemize}
-      \item The user makes a Normal WIP roll with a~-3 MOD to attempt
-        connecting the objective.  \emph{Specialist Troops
-          automatically pass this roll.}
-
-      \item If successful, the acting player connects to the objective
-        (mark it appropriately) and the other player is no longer
-        connected if they previously were (remove any marker).
-      \end{squishitemize}
-    \end{minipage}}
-\end{minipage}}}
-\hfill\hbox to 0pt{}
-
-\medskip%
-\missionrule{Network Terminals.}  The Connect Objective short skill
-may be applied to Network Terminals.  At the end of each game round,
-if your Special Agent is in base contact with a Network Terminal you
-have connected, not a marker, and no enemy troops are in contact, you
-receive a Network Directory token.
-
-\missionrule{Experience.}  After each mission, your Special Agent is
-permanently improved by choosing from:
-
-\begin{squishitemize}
-\item +1 to one of BS, PH, or WIP
-\item +3 to CC
-\item +1 to MOV (first value)
-\item +1 to ARM (once per campaign)
-\item +1 to BTS (once per campaign)
-\end{squishitemize}
-
-If you won and the Lieutenant on your army list survived, their BS,
-PH, or WIP may be permanently improved by~+1, or their CC by~+3.  Note
-that this is optional as attributes are public information, so an
-improvement reveals your Lieutenant's identity.  You may not improve a
-single attribute for any given Lieutenant more than once per campaign
-(e.g., after two victories they could not improve BS twice).
-  
-If you lost the mission, you receive a Karma token.  If you lost by~7
-or more objective points then you receive two Karma tokens.  Karma
-tokens may be discarded at any point in a later mission to reroll a
-single die of yours.  You may not reroll a die that has already been
-rerolled.
-
-\missionrule{Endgame.}  All matches end after~3 game turns.
-\emph{Retreat!} rules apply as given in the main \emph{Infinity}
-rulebook except the game does not end once one player has no models in
-play: The remaining player may play out the game turns attempting to
-score objectives.
-
-\vfill
-\vbox to 0pt{}
+\input{rules-army}
+\input{rules-missions}
+\input{rules-doubles}
+\input{rules-campaign}
 
 \input{mission-breachpoint}
 
