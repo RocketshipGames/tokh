@@ -1,7 +1,5 @@
 \documentclass{tokh}
 
-\usepackage[colorlinks=true]{hyperref}
-
 \newcommand{\cfbox}[2]{%
     \colorlet{currentcolor}{.}%
     {\color{#1}%
@@ -28,6 +26,29 @@
 \pagebreak
 \restorebackground
 
+\setcounter{tocdepth}{0}
+\noindent
+\begin{minipage}{\linewidth}
+\fontsize{18}{18}\neuropolitical    
+\tableofcontents
+\end{minipage}
+
+\bigskip
+\vfill
+\input{credits}
+
+\vfill
+
+\centerline{\includegraphics[width=6in]{art/rocketshipgames-title-doublerow.pdf}}
+
+\vfill
+\hfill{\small[ release \today ]}
+
+\thispagestyle{empty}
+\clearpage
+
+\input{framework}
+
 \input{rules-army}
 \input{rules-missions}
 \input{rules-doubles}
@@ -41,5 +62,7 @@
 \input{mission-plant}
 
 \input{mission-datacenter}
+
+\input{organizer}
 
 \end{document}

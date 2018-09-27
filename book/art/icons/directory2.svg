@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="116pt"
+   height="116pt"
+   viewBox="0 0 40.922221 40.922221"
+   version="1.1"
+   id="svg12223"
+   inkscape:version="0.92.2 2405546, 2018-03-11"
+   sodipodi:docname="directory2.svg">
+  <defs
+     id="defs12217">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter14025">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood14015" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite14017" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur14019" />
+      <feOffset
+         dx="1"
+         dy="1"
+         result="offset"
+         id="feOffset14021" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite14023" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.9883838"
+     inkscape:cx="35.898023"
+     inkscape:cy="71.736016"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1339"
+     inkscape:window-height="739"
+     inkscape:window-x="27"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="pt" />
+  <metadata
+     id="metadata12220">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-95.501981,-126.55794)">
+    <rect
+       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.70555562;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter14025)"
+       id="rect4026-6-7-5-44"
+       width="38.100002"
+       height="38.100002"
+       x="96.207535"
+       y="127.26349" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.53996897;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 105.37291,138.24195 a 1.2701114,1.2701114 0 0 0 -1.27061,1.26875 v 6.27396 a 1.2701114,1.2701114 0 0 0 1.27061,1.26874 h 1.65802 v 13.65295 a 1.2701114,1.2701114 0 0 0 1.26874,1.27107 h 6.97158 v 0.39346 a 1.2701114,1.2701114 0 0 0 1.26921,1.27107 l 7.89756,-0.002 a 1.2701114,1.2701114 0 0 0 1.26921,-1.27107 v -4.86011 a 1.2701114,1.2701114 0 0 0 -1.26921,-1.26921 h -1.545 v -0.14045 a 1.2701114,1.2701114 0 0 0 -1.26921,-1.27107 h -5.08335 a 1.2701114,1.2701114 0 0 0 -1.26921,1.27107 v 2.24635 h -4.61082 v -5.74796 h 4.60896 v 0.34277 a 1.2701114,1.2701114 0 0 0 1.27107,1.27061 l 7.89756,-0.001 a 1.2701114,1.2701114 0 0 0 1.26921,-1.27107 v -4.86011 a 1.2701114,1.2701114 0 0 0 -1.27107,-1.26921 h -1.54314 v -0.14045 a 1.2701114,1.2701114 0 0 0 -1.27107,-1.27107 h -5.08149 a 1.2701114,1.2701114 0 0 0 -1.27107,1.27107 v 2.29704 h -4.60896 v -1.91381 h 2.6105 a 1.2701114,1.2701114 0 0 0 1.26921,-1.26921 v -4.86058 a 1.2701114,1.2701114 0 0 0 -1.26921,-1.2706 h -1.545 v -0.14092 a 1.2701114,1.2701114 0 0 0 -1.27107,-1.26875 z m 0,1.26968 h 5.08288 v 1.41059 h 2.81468 v 4.86011 l -7.89756,0.002 z m 11.16709,7.15668 h 5.08242 v 1.4106 h 2.81467 v 4.8601 l -7.89709,0.002 v -1.61383 h -7.14925 v 8.28869 h 7.15018 v -3.51741 h 5.08242 v 1.41059 h 2.81467 v 4.86058 l -7.89709,0.001 v -1.6636 h -8.2408 v -13.72876 l 1.08969,-0.002 v 3.25976 H 116.54 Z"
+       id="path6600-4"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666718px;line-height:1.25;font-family:Kimberley;-inkscape-font-specification:Kimberley;text-align:center;text-anchor:middle;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.5875001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="114.11338"
+       y="136.87317"
+       id="text4012-61-4"><tspan
+         sodipodi:role="line"
+         id="tspan4010-0-7"
+         x="114.11338"
+         y="136.87317"
+         style="fill:#000000;stroke:none;stroke-width:1.5875001">Net.Dir</tspan></text>
+  </g>
+</svg>

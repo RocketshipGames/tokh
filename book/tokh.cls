@@ -15,6 +15,15 @@
 % xcolor has to lead here to avoid options conflicts from other packages
 \RequirePackage[usenames,dvipsnames,table]{xcolor}
 
+\RequirePackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=LineColor
+  }
+
 %%----------------------------------------------------------------------
 %%-- Options
 
@@ -70,9 +79,9 @@
 \centering%
 \checkoddpage
 \ifoddpage
-\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{#1-right}%
-\else
 \includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{#1-left}%
+\else
+\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{#1-right}%
 %\reflectbox{\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{#1}}%
 \fi
 %
@@ -198,6 +207,15 @@
 {16pt}% before
 {4pt}% after
 
+\RequirePackage{titletoc}
+
+\titlecontents{chapter}%
+[0em]%
+{}%\vspace{1cm}%
+{}%
+{\itshape\bfseries\color{black}}%numberless%
+{\hfill\contentspage}[\medskip]%
+
 %%----------------------------------------------------------------------
 %%-- Arrays and Lists
 
@@ -307,8 +325,6 @@
 
 %%----------------------------------------------------------------------
 %%-- Misc Packages
-
-\RequirePackage[obeyspaces]{url}
 
 \RequirePackage{latexsym}
 
