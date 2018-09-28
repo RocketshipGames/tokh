@@ -1,4 +1,4 @@
-\chapter{Mission: Plant}
+\chapter{Mission: PhysPlant}
 
 \emph{\emph{Plant} is a RECON+ mission in which the alliances attempt
   to destroy the campus physical plant using explosives and targets
@@ -100,19 +100,24 @@ conditions at game end:
       \item Bombs have the following profile:
 
         \smallskip
-\hfill\cfbox{Dandelion}{\begin{minipage}{1.85in}\centering
+\hfill\cfbox{Dandelion}{\begin{minipage}[t]{1.85in}\centering\vbox to 0pt{}
             \colorbox{Dandelion}{\parbox{\linewidth-2\fboxsep}{\textbf{\textcolor{White}{Bomb}}}}
 
             \noindent\colorbox{Gray!24}{\begin{minipage}{\linewidth-2\fboxsep}\centering
 
                 \medskip
-                \noindent\hfill\begin{tabular}[t]{cccc}
+                \noindent\hbox to 0pt{}\hfill%
+                  \begin{tabular}[t]{cccc}
                                  \rowcolor{Black} \textbf{\textcolor{White}{ARM}} & \textbf{\textcolor{White}{BTS}} & \textbf{\textcolor{White}{STR}} & \textbf{\textcolor{White}{S}}\\
                                  \hline
                                  0 & 0 & 1 & 1\\
                                \end{tabular}
                              \end{minipage}}
-                         \end{minipage}}\hfill\hbox to 0pt{}
+                         \end{minipage}}\quad\quad%
+                       \begin{minipage}[t]{1in}
+                       \raisebox{-.95in}[0pt][0pt]{\includegraphics[height=1.1in]{art/icons/bomb}}
+                       \end{minipage}%
+                       \hfill\hbox to 0pt{}
 
         
       \end{squishitemize}

@@ -328,6 +328,25 @@
 
 \RequirePackage{latexsym}
 
+\newcommand{\cfbox}[2]{%
+    \colorlet{currentcolor}{.}%
+    {\color{#1}%
+    \fbox{\color{currentcolor}#2}}%
+}
+
+\newlength{\currentparskip}
+\newlength{\currentparindent}
+\newenvironment{stdminipage}[1]
+{\setlength{\currentparskip}{\parskip}%
+  \setlength{\currentparindent}{\parindent}%
+   \begin{minipage}[t]{#1}%
+   \setlength{\parskip}{\currentparskip}%
+   \setlength{\parindent}{\currentparindent}%
+  }
+  {\end{minipage}}
+
+\RequirePackage{xspace}
+\newcommand{\missionrule}[1]{\noindent\textbf{#1}\xspace}
 
 %%----------------------------------------------------------------------
 %%-- End

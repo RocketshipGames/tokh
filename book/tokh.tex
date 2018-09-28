@@ -1,25 +1,5 @@
 \documentclass{tokh}
 
-\newcommand{\cfbox}[2]{%
-    \colorlet{currentcolor}{.}%
-    {\color{#1}%
-    \fbox{\color{currentcolor}#2}}%
-}
-
-\newlength{\currentparskip}
-\newlength{\currentparindent}
-\newenvironment{stdminipage}[1]
-{\setlength{\currentparskip}{\parskip}%
-  \setlength{\currentparindent}{\parindent}%
-   \begin{minipage}[t]{#1}%
-   \setlength{\parskip}{\currentparskip}%
-   \setlength{\parindent}{\currentparindent}%
-  }
-  {\end{minipage}}
-
-\usepackage{xspace}
-\newcommand{\missionrule}[1]{\noindent\textbf{#1}\xspace}
-
 \begin{document}
 \squelchbackground
 \includepdf[pages={1},fitpaper,offset=0cm 0cm]{art/cover/tokh-cover.pdf}
@@ -37,6 +17,7 @@
 \vfill
 \input{credits}
 
+\bigskip
 \vfill
 
 \centerline{\includegraphics[width=6in]{art/rocketshipgames-title-doublerow.pdf}}
@@ -63,6 +44,11 @@
 
 \input{mission-datacenter}
 
-\input{organizer}
+\clearpage
+\addcontentsline{toc}{chapter}{Campaign Map}
+
+\squelchbackground
+\includepdf[pages={1},fitpaper,offset=0cm 0cm]{art/map/map-backcover.pdf}
+\restorebackground
 
 \end{document}
